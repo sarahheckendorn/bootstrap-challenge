@@ -6,28 +6,37 @@
 	<title>Bootstrap 4 Challenge</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-secondary mb-4">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="#">Features</a>
-				<a class="nav-item nav-link" href="#">Pricing</a>
-				<a class="nav-item nav-link" href="#">Contact Us</a>
+	<header>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ml-auto">
+						<a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+						<a class="nav-item nav-link" href="#">Features</a>
+						<a class="nav-item nav-link" href="#">Pricing</a>
+						<a class="nav-item nav-link" href="#">Contact Us</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+		<!-- Div for Jumbotron -->
+	<section class="py-5">
+		<div class="container">
+			<div class="jumbotron mt-6 mb-6">
+				<h1 class="display-4">Hello, world!</h1>
+					<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information</p>
+					<a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
 			</div>
 		</div>
-	</nav>
-		<!-- Div for Jumbotron -->
-		<div class="container jumbotron mt-6 mb-6">
-			<h1 class="display-4">Hello, world!</h1>
-				<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information</p>
-				<a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
-		</div>
+	</section>
 		<!--div for dark background section-->
-		<div class="container-fluid py-4 bg-secondary">
+	<section class="bg-secondary py-5">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4">
 					<img class="img-fluid" src="https://placekitten.com/g/505/507" alt="fuzzy"/>
@@ -39,6 +48,7 @@
 				</div>
 			</div>
 		</div>
+	</section>
 		<!--Div for four columns-->
 		<hr class="feature-divider">
 		<div class="container align-items-baseline mx-auto text-center">
